@@ -10,6 +10,10 @@
     
 ## Java code:
 
- ` System.out.println("Hellow World") `
+ ` System.out.println("Hellow World"); `
 
- 
+ ### New Updates:
+
+ *Hello there*
+
+
