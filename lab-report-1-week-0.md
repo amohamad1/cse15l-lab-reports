@@ -1,3 +1,5 @@
 Hello there, here is a random screenshot
 
-![Image](Screenshot.png)
+![Image](https://amohamad1.github.io/cse15l-lab-reports/Screenshot.png)
+
+[Lab Report 1](https://amohamad1.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
