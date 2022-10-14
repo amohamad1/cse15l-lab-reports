@@ -1,6 +1,6 @@
 ### Lab Report 1: Remote Acess and Filesystem
 
-Hello there! Welcome to CSE 15L! In this tutorial, you will set up your development environment and familiarize yourself with termianl commands:
+Hello there! Welcome to CSE 15L! In this tutorial, you will set up your development environment and familiarize yourself with terminal commands:
 1. Download and install [VS Code](https://code.visualstudio.com/) from the link provided in assignment instructions. Once installed, famliarize yourself with the program.
 ![Image](https://amohamad1.github.io/cse15l-lab-reports/Screenshot2.png)
 2. To connect to the remote iegn6 servers you must ssh using the provided course account. First obtain the course account and set its passowrd [here](https://sdacs.ucsd.edu/~icc/index.php). Once you have access to the account, open up your teminal and run the following command, replacing the username with your own: 
