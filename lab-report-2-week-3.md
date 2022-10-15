@@ -75,7 +75,6 @@ In the screenshot above, we add a word to our list. This calls the handleRequest
 
 ![Image](https://amohamad1.github.io/cse15l-lab-reports/part1/add2.png)
 ![Image](https://amohamad1.github.io/cse15l-lab-reports/part1/add3.png)
-![Image](https://amohamad1.github.io/cse15l-lab-reports/part1/add3.png)
 ![Image](https://amohamad1.github.io/cse15l-lab-reports/part1/add4.png)
 
 The same process as add from above applies here. We then attempt to search through the arrayList of words:
