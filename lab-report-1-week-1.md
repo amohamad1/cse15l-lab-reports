@@ -1,4 +1,4 @@
-### Lab Report 1: Remote Acess and Filesystem
+### Lab Report 1: Remote Access and Filesystem
 
 Hello there! Welcome to CSE 15L! In this tutorial, you will set up your development environment and familiarize yourself with terminal commands:
 1. Download and install [VS Code](https://code.visualstudio.com/) from the link provided in assignment instructions. Once installed, famliarize yourself with the program.

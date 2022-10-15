@@ -92,7 +92,7 @@ Bug 1:
 ![Image](https://amohamad1.github.io/cse15l-lab-reports/part2/test1Output.png)
 ![Image](https://amohamad1.github.io/cse15l-lab-reports/part2/fixedCode1.png)
 
-describe
+This bug is caused by the fact that in the orignial function, the same array that is being reversed is used. The first element is changed to the 3rd, the middle element is unchanged, then the last element is given the value of the first element. But since we have already changed the first element to the third, we lost the original first element. This was easly solved by first copying the contents of the original array to temp array, then copying elements from the temp array instead.
 
 Bug 2:
 
@@ -100,6 +100,6 @@ Bug 2:
 ![Image](https://amohamad1.github.io/cse15l-lab-reports/part2/test2Output.png)
 ![Image](https://amohamad1.github.io/cse15l-lab-reports/part2/fixedCode2.png)
 
-describe
+This bug is caused by an error in the final while loop of the merge() function. In this function, when copying elements from the second list, the code increments index1 instead of index2. This will not cause any symptoms if the two lists are the same size, but if list2 is longer, this will cause the progrom to be stuck in an infinite loop. To fix this, we replace index1 with index2 in that final while loop
 
 
