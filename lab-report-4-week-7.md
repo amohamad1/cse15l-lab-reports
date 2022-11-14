@@ -65,3 +65,9 @@ Pressing \<esc> to return to normal mode
 ![Image](https://amohamad1.github.io/cse15l-lab-reports/report4/screenshot14.png)
 
 ## Part 2
+
+Method 1 took 49 seconds, while method 2 took 26 seconds.
+
+I would personally prefer to make the edits on the remote server instead of making the edits on the local machine then scp to the remote becuase it is faster and more straightforward if the program needs to run remotely. 
+
+One key aspect that factors into this is whether or not I need any specialized tools or programs such IDEs to make the eidts. If only vim is being used, then I could make the edits on the remote. But if other applications are involved in the , it is probably easier/ crucial to make the edits on the local machine then scp to the remote.
