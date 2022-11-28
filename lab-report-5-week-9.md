@@ -49,7 +49,8 @@ else
   echo "Grade: 0%"
 fi
 
-exit 0 ```
+exit 0 
+```
 
 Output to this repo: https://github.com/ucsd-cse15l-f22/list-methods-lab3:
 
@@ -64,5 +65,5 @@ Out to this repo: https://github.com/ucsd-cse15l-f22/list-examples-subtle:
 ![Image](https://amohamad1.github.io/cse15l-lab-reports/report5/screenshot3.png)
 
 
-In the last example
+In the last example, the script begins by cloning the repo using the input argument link. The first if statment evaluets that link and checks if its a valid link to a repo, since this is a valid repo link, we echo "Student repo found". We then cp the file we want into student-submission directory and cd into that directory. The if statment then check if the file exits, which in this case it does, so we echo "file exits". After that we compile the junit test then check if there was a compiler error. Then the tests are ran and the output of the tests are redirected to a file called "results.txt" and we use grep to look into that file for failures and assign that value to a variable testResults. We then check the value of that varaible in the final if statment. Since the value of testResults is not a blank (it should be "Tests run: 3,  Failures: 1"), the else block is exectured and the studnet is given a grade of 0%.
 
